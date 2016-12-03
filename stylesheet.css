@@ -1,0 +1,28 @@
+table {
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid black;
+  margin: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+}
+
+td.win {
+  background-color: #66ff66;
+}
+
+td.loss {
+  background-color: #ff6666;
+}
+
+td.tie {
+  background-color: #ffff66;
+}
+
+form {
+  text-align: left;
+}
